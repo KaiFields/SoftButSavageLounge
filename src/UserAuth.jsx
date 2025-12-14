@@ -1,6 +1,6 @@
 
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { supabase } from './supabaseClient';
 
 export default function UserAuth({ onAuth }) {
@@ -13,6 +13,33 @@ export default function UserAuth({ onAuth }) {
   const [profile, setProfile] = useState(null);
   const [editingProfile, setEditingProfile] = useState(false);
   const [profileForm, setProfileForm] = useState({ email: '', avatar_url: '' });
+
+  // Initialize user from Supabase session and listen for auth state changes
+  useEffect(() => {
+    const getSession = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session && session.user) {
+        setUser(session.user);
+        onAuth && onAuth(session.user);
+        fetchProfile(session.user);
+      }
+    };
+    getSession();
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (session && session.user) {
+        setUser(session.user);
+        onAuth && onAuth(session.user);
+        fetchProfile(session.user);
+      } else {
+        setUser(null);
+        setProfile(null);
+        onAuth && onAuth(null);
+      }
+    });
+    return () => {
+      listener.subscription.unsubscribe();
+    };
+  }, []);
 
 
   function handleChange(e) {
