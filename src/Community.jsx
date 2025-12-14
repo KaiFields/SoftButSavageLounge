@@ -42,9 +42,14 @@ export default function Community() {
     setComment({ ...comment, [postId]: '' });
   }
 
+  function handleGoLive() {
+    window.open('https://us05web.zoom.us/j/2290549178?pwd=jtlobZHOomLWvA7JbbWyX19iaODCY6.1&omn=86828267023', '_blank');
+  }
+
   return (
     <section className="community">
       <h2>Community</h2>
+      <button className="cta" style={{marginBottom:16}} onClick={handleGoLive}>Go Live</button>
       <form onSubmit={handleAddPost} className="community-form">
         <textarea
           value={newPost}

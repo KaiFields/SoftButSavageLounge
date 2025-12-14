@@ -18,6 +18,9 @@ function App() {
         <img src={logo} className="App-logo" alt="Soft But Savage logo" />
         <div className="brand">Soft But Savage</div>
         <div className="tagline">A journal‑styled sanctuary for reclaiming soft power</div>
+        <div style={{ position: 'absolute', top: 24, right: 32 }}>
+          {!user && <button className="cta" onClick={() => setPage('signin')}>Sign In</button>}
+        </div>
         <UserAuth onAuth={setUser} />
         <nav style={{ margin: '1rem 0' }}>
           <button className="cta" onClick={() => setPage('journal')}>Journal</button>
@@ -27,6 +30,7 @@ function App() {
         {page === 'home' && <div className="small">Designed with warmth, ritual, and sisterhood.</div>}
       </header>
       <main style={{ width: '100%', maxWidth: 600, margin: '2rem auto' }}>
+        {page === 'signin' && <UserAuth onAuth={setUser} />}
         {page === 'journal' && user && <JournalEntries user={user} />}
         {page === 'journal' && !user && <div style={{color:'#cfa87a',marginTop:24}}>Please log in to access your journal.</div>}
         {page === 'rituals' && <Rituals />}
