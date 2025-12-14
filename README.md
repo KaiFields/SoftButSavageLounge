@@ -1,70 +1,83 @@
-# GitHub Codespaces ♥️ React
+# 🌸 Soft But Savage: The ShaiCandie Rebirth Lounge™
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+Soft But Savage: The ShaiCandie Rebirth Lounge™ is a transformational mobile sanctuary crafted for women who are healing, evolving, and stepping into their divine soft power — without losing their edge. This app blends trauma-informed self-development, divine femininity, and community-led empowerment into one seamless, beautifully-designed digital experience.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+Built with a journal-inspired aesthetic, warm glow visuals, and an intuitive layout, the app serves as both a healing refuge and a high-performance growth hub. Users can access guided programs, shadow-work rituals, private journaling tools, community engagement spaces, and live coaching within a single, cohesive platform.
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+---
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+## ✨ Core Experience
 
-## Available Scripts
+Soft But Savage is designed to feel like a sacred space — gentle, grounded, but still bold enough to activate real change. Every section of the app supports emotional healing, identity rebuilding, and self-mastery through structured modules, spiritually-rooted practices, and interactive self-reflection tools.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌺 Key Features
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
+### 📚 The Soft Rebirth Method™ Course Library
+- Deep trauma healing
+- Shadow work guidance
+- Divine feminine embodiment
+- Self-worth & identity restoration
+- Audio-led prayers, affirmations, and meditations
+- Downloadable worksheets, videos, audio sessions, and reflection spaces
 
-Runs the app in the development mode.\
-Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
+### 🖤 Shadow Work Journal
+- Private, lockable journal
+- Daily prompts
+- Progress tracking
+- Mood check-ins
+- Reflective writing space
+- Emotional pattern insights
 
-The page will reload automatically when you make changes.\
-You may also see any lint errors in the console.
+### 🌬️ Audio Sanctuary
+- Lo-fi healing tracks
+- Soft spoken affirmations
+- Scripted prayers based on Psalms + shadow work themes
+- Quick 60-second grounding resets
 
-### `npm test`
+### 👑 Community Lounge
+- Moderated, feminine-empowered social feed
+- Share breakthroughs
+- Group challenges
+- Support and sisterhood
+- Weekly discussions + themed threads
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📅 Live Coaching + Events
+- Monthly coaching calls
+- Journaling circles
+- Workshops
+- Replays for VIP members
+- Push notifications and calendar reminders
 
-### `npm run build`
+### 💎 Membership Tiers
+- **Free Tier:** community access + daily soft steps
+- **Premium:** full course library, audio sanctuary, workshops
+- **VIP Inner Circle:** live coaching, exclusive lessons, private rituals
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧚‍♀️ Brand + Aesthetic
+- Rose quartz & sunset peach
+- Gold accents
+- Light textures inspired by journals and parchment
+- Gentle sparkles + soft glow
+- Feminine, elegant typography
+- Warm, ethereal, and safe — but still strong
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-## Learn More
+## 🔥 Who This App Serves
+Women who are:
+- Healing from trauma
+- Rebuilding identity
+- Seeking emotional clarity
+- Stepping into their divine femininity
+- Ready for a soft life with strong boundaries
 
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
+This app supports them with tools that are spiritual, emotional, and practical.
 
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
-
-### Advanced Configuration
-
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
-
-### Deployment
-
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
-
-### Troubleshooting
-
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
+## 🌟 Mission
+To provide a holistic, empowering space where women can reset, rebuild, and rise — in softness, in power, and in unapologetic authenticity.
