@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:80"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    # Uncomment and configure if you want to link to Supabase or other services
+    # depends_on:
+    #   - supabase
+
+  # Example for local Supabase (optional)
+  # supabase:
+  #   image: supabase/postgres:latest
+  #   ports:
+  #     - "5432:5432"
+  #   environment:
+  #     POSTGRES_PASSWORD: example
+  #   restart: unless-stopped
