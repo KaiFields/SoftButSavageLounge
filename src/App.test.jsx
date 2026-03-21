@@ -2,8 +2,9 @@ import { expect, test } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders skill arena dashboard content', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeDefined();
+  expect(screen.getByText(/competitive skill gaming mvp/i)).toBeDefined();
+  expect(screen.getByText(/build a compliant mvp for skill challenges/i)).toBeDefined();
+  expect(screen.getByText(/admin panel/i)).toBeDefined();
 });
